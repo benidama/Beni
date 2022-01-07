@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head >
+<body id="body">
+    <div id="all">
+        <h1 id="heading">registration form</h1>
+        <p class="text">welcome all! This is Quintus university where<br>
+           we give you an excellent education for all the students join us.<br>
+            That is why we give a welcome, come and enjoy our services.</p>
+    </div>
+
+    <form id="form">
+        
+        <div>
+            <h2 class="heading">Name</h2>
+            <input class="inp" type="text" name="first_name"> <br>
+            <label class="lab">first name</label>
+            <input class="inputt" type="text" name="second_name">
+            <label class="labell">second name</label>
+        
+        </div>
+        <h2 class="heading">school name</h2>
+        <input class="input" type="text" name="school">
+
+        <h2 class="heading">email</h2>
+        <input class="input" type="text" name="email">
+
+        <h2 class="heading">phone</h2>
+        <input class="in" type="text" name="phone">
+        <label class="labe">code</label>
+        <input class="phone" type="text" name="phone">
+        <label class="label">phone number</label>
+
+        <h2 class="heading">subject</h2>
+        <select class="select" name="subject">
+            <option disabled="disabled" selected="selected">---choose option</option>
+            <option>Forestry</option>
+            <option>Business</option>
+            <option>Medicine</option>
+        </select>
+
+        <h2 class="heading">are you beginner? yes/no</h2>
+        <input id="in" type="text">
+        
+    
+
+    <button id="button" :type="submit">register</button>
+    </form>
+    
+</body>
+</html>

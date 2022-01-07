@@ -1,0 +1,113 @@
+#body{
+    background-image: url(./IMG_20211221_160417_7.jpg);
+}
+#heading{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.heading{
+    text-align: left;
+    text-transform: capitalize; 
+    position: relative;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.input{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    padding: 0 25px;
+    margin-left: 200px;
+}
+#in{
+    width: 50px; height: 40px; border-radius: 10px;
+    margin-right: 200px; margin-left: 450px; top: -60px; position: relative;
+}
+.in{
+    width: 50px; height: 40px; border-radius: 10px;
+    margin-left: 200px; margin-right: 90px;
+}
+
+.no{
+    width: 50px; height: 30px; border-radius: 10px;
+    margin-left: 20px;   
+}
+.inputt{
+    width: 350px;
+    height: 40px;
+    left: 411pxs;
+    top: -40px;
+    border-radius: 10px;
+    padding: 0 25px;
+    position: relative;
+    margin-left: 160px;
+}
+.phone{
+    width: 350px;
+    height: 40px;
+    left: 2px;
+    
+    border-radius: 10px;
+    padding: 0 25px;
+    position: relative;
+    margin-left: 16px;
+}
+
+.lab{
+    margin-left: 315px;
+    position: relative;
+    color: black; font-weight: bold; font-size: 20px;
+    top: -10px;
+}
+.inp{
+    width: 300px;
+    height: 40px;
+    left: 200px;
+    border-radius: 15px;
+    position: relative;
+    
+}
+#button{
+    border-radius: 20px; margin-top: 40px;
+    position: relative;
+    width: 150px; height: 40px; text-transform: capitalize;
+    text-align: center; font-size: 30px; background-color: aqua;
+    font-weight: bold;
+    
+    
+    
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold; color: black;
+    margin-bottom: -6px;
+}
+.select{
+    margin-left: 210px;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+}
+.label{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.labell{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin: -250px; top: -10px;
+}
+.labe{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -80px;
+}
